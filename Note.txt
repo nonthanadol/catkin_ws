@@ -1,0 +1,8 @@
+#sudo apt-get remove [programe]
+
+#sudo apt-get install python3-rospkg-modules 
+#sudo apt-get install python3-catkin-pkg-modules
+#sudo apt install python3-pip
+
+#sudo apt list ros-melodic-rqt #cheack install
+
