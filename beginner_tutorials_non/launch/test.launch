@@ -1,0 +1,13 @@
+<launch>
+    <group ns = "chat1">
+        <node pkg="beginner_tutorials" name="test_node" type="talker.py"/>
+    </group>
+
+    <group ns = "chat2">
+        <node pkg="beginner_tutorials" name="test_node" type="talker.py"/>
+    </group>
+
+    <group ns = "turtlesim1">
+        <node pkg="turtlesim" name="sim" type="turtlesim_node"/>     
+    </group>
+</launch>
